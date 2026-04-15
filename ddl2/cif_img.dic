@@ -2786,11 +2786,6 @@ save__array_structure_list.axis_set_id
            '_array_structure_list_axis.axis_set_id'
                                   array_structure_list_axis       implicit
     _item_type.code               code
-     loop_
-    _item_linked.child_name
-    _item_linked.parent_name
-           '_array_structure_list_axis.axis_set_id'
-                               '_array_structure_list.axis_set_id'
      save_
 save__array_structure_list.dimension
     _item_description.description
@@ -3375,6 +3370,11 @@ save__array_structure_list_axis.axis_set_id
     _item.category_id          array_structure_list_axis
     _item.mandatory_code       implicit
     _item_type.code            code
+    loop_
+    _item_linked.child_name
+    _item_linked.parent_name
+           '_array_structure_list.axis_set_id'
+                               '_array_structure_list_axis.axis_set_id'
      save_
 save__array_structure_list_axis.angle
     _item_description.description
