@@ -1107,6 +1107,11 @@ save__array_data.data
               for a CBF.  The octal, decimal and hexadecimal transfer
               encodings are provided for convenience in debugging and
               are not recommended for archiving and data interchange.
+              X-BASE32K encoding and the use of a charset parameter or
+              byte order mark to specify the character set of the array
+              data in CIF1 have been removed and should not be used when
+              writing new files. For backwards compatibility, software
+              may continue reading files that use these features.
 
               In an imgCIF file, the encoded binary data begin after
               the empty line terminating the header.  In an imgCIF file,
