@@ -1400,7 +1400,9 @@ save_ARRAY_DATA_EXTERNAL_DATA
             @CBF_external_data_path="DATAPATH"
             @CBF_external_data_frame="DATAFRAME"
 ;
+     loop_
     _category_key.name             '_array_data_external_data.id'
+                                   '_array_data_external_data.variant'
      loop_
     _category_group.id             'inclusive_group'
                                    'array_data_group'
@@ -11439,7 +11441,7 @@ save__variant.variant
              '_array_structure_list_axis.variant'  array_structure_list_axis
                                                                        implicit
              '_array_structure_list_section.variant'
-                                 array_structure_list_axis_section
+                                 array_structure_list_section
                                                                        implicit
              '_axis.variant'                       axis                implicit
              '_diffrn_data_frame.variant'          diffrn_data_frame   implicit
